@@ -6,6 +6,7 @@ public class MorseCodePluginImpl implements TextManager {
     @Override
     public String formatText(String text) {
         // Turn text into morse code
+        text = text.toLowerCase();
         text = text.replace("a", ".-");
         text = text.replace("b", "-...");
         text = text.replace("c", "-.-.");
