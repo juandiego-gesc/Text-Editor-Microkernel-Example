@@ -14,10 +14,10 @@
     <modules>
         <module>text-editor-api</module>
         <module>text-editor-app</module>
-        <module>UpperCaseTextPlugin</module>
-        <module>VocalModificationPlugin</module>
-        <module>MorseCodePlugin</module>
-        <module>JavaSyntaxColorsPlugin</module>
+        <module>plugins/UpperCaseTextPlugin</module>
+        <module>plugins/VocalModificationPlugin</module>
+        <module>plugins/MorseCodePlugin</module>
+        <module>plugins/JavaSyntaxColorsPlugin</module>
     </modules>
 
     <properties>
