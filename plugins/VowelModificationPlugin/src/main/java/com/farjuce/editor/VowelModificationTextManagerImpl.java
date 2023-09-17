@@ -4,7 +4,7 @@ import com.farjuce.editor.api.TextManager;
 
 import java.util.HashMap;
 
-public class VocalModificationTextManagerImpl implements TextManager {
+public class VowelModificationTextManagerImpl implements TextManager {
 
     HashMap<String, String> vocalReplacement = new HashMap<>();
 

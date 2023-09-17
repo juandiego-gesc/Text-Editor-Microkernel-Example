@@ -26,11 +26,11 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
-<!--        <dependency>-->
-<!--            <groupId>com.farjuce.editor</groupId>-->
-<!--            <artifactId>VocalModificationPlugin</artifactId>-->
-<!--            <version>1.0-SNAPSHOT</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>com.farjuce.editor</groupId>
+            <artifactId>VowelModificationPlugin</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
 <!--        <dependency>-->
 <!--            <groupId>com.farjuce.editor</groupId>-->
 <!--            <artifactId>UpperCaseTextPlugin</artifactId>-->
