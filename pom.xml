@@ -18,6 +18,7 @@
         <module>plugins/VowelModificationPlugin</module>
         <module>plugins/MorseCodePlugin</module>
         <module>plugins/JavaSyntaxColorsPlugin</module>
+        <module>plugins/WordMixer</module>
     </modules>
 
     <properties>
