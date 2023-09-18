@@ -8,7 +8,6 @@ import java.util.List;
 public class MainApp {
     public static void main(String[] args) {
         String text = "\nif (true) { System.out.println(\"Hello world!\")} \nelse if (false) { System.out.println(\"Hello world!\")}" ;
-//        String texto =
 
         List<TextEditorPlugin> plugins = TextEditor.plugins();
 
@@ -17,8 +16,5 @@ public class MainApp {
             text = (plugin.create().formatText(text));
             System.out.println("Formatted text: " + text);
         }
-
-
-
     }
 }
