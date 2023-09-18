@@ -14,7 +14,9 @@ public class MainApp {
         for (TextEditorPlugin plugin : plugins) {
             System.out.println("Retreiving plugin: " + plugin);
             text = (plugin.create().formatText(text));
-            System.out.println("Formatted text: " + text);
+            System.out.println("Formatted text: " + text + "\n");
         }
+
+        System.out.println("\n\nEnd Result:" + text);
     }
 }
